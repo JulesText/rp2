@@ -35,6 +35,7 @@ class OutputPlugins(Enum):
     OPEN_POSITIONS = "open_positions"
     RP2_FULL_REPORT = "rp2_full_report"
     TAX_REPORT_US = "tax_report_us"
+    TAX_REPORT_AU = "tax_report_au"
 
 
 class AbstractTestODSOutputDiff(unittest.TestCase):
